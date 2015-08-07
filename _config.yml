@@ -5,6 +5,7 @@ description: A blog about my progress in web design and development.
 url: "http://owenschebella.com" # the base hostname & protocol for your site
 twitter_username: oschebella
 paginate: 5
+baseurl: '/blog'
 
 # Build settings
 markdown: kramdown
