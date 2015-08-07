@@ -1,0 +1,32 @@
+# Site settings
+title: owenschebella.com
+email: oschebell@gmail.com
+description: A blog about my progress in web design and development.
+url: "http://owenschebella.com" # the base hostname & protocol for your site
+twitter_username: oschebella
+paginate: 5
+
+# Build settings
+markdown: kramdown
+permalink: /:title
+
+
+# Defaults
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts" # previously `post` in Jekyll 2.2.
+    values:
+
+      layout: "post"
+      category: general
+      comments: true
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "pages" # previously `post` in Jekyll 2.2.
+    values:
+
+      layout: "page"
