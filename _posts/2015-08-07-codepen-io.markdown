@@ -6,4 +6,4 @@ permalink: codepen-io
 image: Black-Large.png
 ---
 
-A tool for <a href="http://codepen.io/">testing, learning and sharing</a> front end code. Awesome.
+Lets test this
