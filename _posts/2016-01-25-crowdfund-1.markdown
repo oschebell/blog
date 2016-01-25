@@ -1,0 +1,10 @@
+---
+title: "Crowfund App 1"
+date:   2016-01-25 18:53
+categories: rails
+permalink: crowdfund-1
+
+---
+
+This series of articles in the blog are bascially me teaching myself rails as I create a fake crowdfun app. 
+The steps taken, things to remember, pitfalls, mistakes and the occasional thing I do right :)

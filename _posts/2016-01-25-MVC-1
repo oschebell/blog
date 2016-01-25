@@ -1,0 +1,20 @@
+---
+title: "MVC"
+date:   2016-01-25 19:10
+categories: general
+permalink: mvc-1
+
+---
+Controller:
+- asks the model for data
+- assigns data to instance variables
+- renders a view template
+
+Model:
+- accesses the database table
+- maps rows in the database to objects
+- defines business logic
+
+View:
+- generates the output (HTML)
+- uses data from the controller
