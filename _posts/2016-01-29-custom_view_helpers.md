@@ -21,7 +21,7 @@ def pledging_expired?
   Date.today > pledging_ends_on
 end
 
-This allows as to then call it in the projects_helper like before except now we have defined whether the date is expired or not in the project Model where it should be. Remember, business logic should always be expressed in the Model, the View should only be used to generate the output. This might not seem like a big deal but as an app gets larger and larger we need to make sure we are placing the code where it should be. It also means we can call the pledging_expired? method from anywhere in the app now if need be. 
+This allows us to then call it in the projects_helper like before except now we have defined whether the date is expired or not in the project Model where it should be. Remember, business logic should always be expressed in the Model, the View should only be used to generate the output. This might not seem like a big deal but as an app gets larger and larger we need to make sure we are placing the code where it should be. It also means we can call the pledging_expired? method from anywhere in the app now if need be. 
 
 
 
