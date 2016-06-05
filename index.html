@@ -1,48 +1,114 @@
----
-layout: default
----
 
-<div class="home">
+<h1>What I've done..</h1>
+<img src="http://www.reactiongifs.com/r/2013/06/Im-kind-of-a-big-deal.gif" style="max-width:100%;">
 
-  <h1 class="page-heading">Posts</h1>
 
-  <ul class="post-list">
-    {% for post in paginator.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+<p>
+  <h3>Current Learning</h3>
+  I have spent the last 12 months learning various web development methodologies from a range of websites, books, and in-person mentoring.
+    <ul>
+      <li>My profile at<a href="https://teamtreehouse.com/owenschebella"> Team Treehouse.</a> (HTML/CSS/JS/Python/Ruby/Design)
+        <li><a href="https://www.learneroo.com">Learneroo</a> (Ruby and Rails)
+        <li><a href="https://www.codecademy.com">Codecademy</a> (Ruby/Rails/Python/HTML/CSS)
+        <li><a href="https://pragmaticstudio.com">Pragmatic Studio</a> (Ruby/Rails)
+        <li><a href="https://rubymonk.com">Ruby Monk</a> (Ruby)
+        <li><a href="http://www.goodreads.com/book/show/16301040-rails-4-in-action">Rails 4 In Action</a> (Rails)
+        <li><a href="https://www.justinweiss.com/practicing-rails/">Practicing Rails</a> (Rails)
+        <li><a href="https://www.railstutorial.org">Rails Tutorial</a> (Rails)
+        <li><a href="http://learnrubythehardway.org">Learn Ruby the Hard Way</a> (Ruby)
+        <li><a href="https://github.com/oschebell">My Github Profile</a>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-        {{ post.excerpt }}
-      </li>
-    {% endfor %}
-  </ul>
+    </ul>
+</p>
 
-      {% if paginator.total_pages > 1 %}
-    <div class="pagination">
-      {% if paginator.previous_page %}
-        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
-      {% else %}
-        <span>&laquo; Prev</span>
-      {% endif %}
 
-      {% for page in (1..paginator.total_pages) %}
-        {% if page == paginator.page %}
-          <em>{{ page }}</em>
-        {% elsif page == 1 %}
-          <a href="{{ '/index.html' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
-        {% else %}
-          <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
-        {% endif %}
-      {% endfor %}
 
-      {% if paginator.next_page %}
-        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
-      {% else %}
-        <span>Next &raquo;</span>
-      {% endif %}
-    </div>
-    {% endif %}
 
-</div>
+<p>
+  <h3>Skills Summary</h3>
+    <ul>
+      <li>Growing understanding of web development concepts and programming methodologies.
+      <li>Adobe CS6 Photoshop and Lightroom 5 as well as various image/photo editing techniques.
+      <li>Effective case management and injury management experience
+      <li>Conflict resolution skills (including negotiation of suitable duties with host employers, and liaison with client representatives)
+      <li>Excellent interpersonal communication skills, both written and verbal
+      <li>Professional report writing skills
+      <li>Experienced in vocational and motivational counselling and building rapport with injured individuals
+      <li>Experience in liaising with treating practitioners to manage client’s return to work
+      <li>Outcomes focused
+      <li>Liability reduction
+      <li>Ability to identify suitable return to work solutions
+      <li>Professional accountability for managing cases and developing professional relationships
+    </ul>
+  <p>
+
+<h3>Employment Profile</h3>
+
+  <p>
+    <h4>September 2010 – Current</h4>
+    <b>Owner/Director<br>
+    SchebellaVisuals Photography</b>
+      <ul>
+        <li>I am currently running my own photographic business specializing in architecture and interiors.
+      </ul>
+  </p>
+
+  <p>
+    <h4>July 2008 – September 2010</h4>
+    <b>Vocational Rehabilitation Consultant<br>
+    Medibank Health Solutions</b>
+      <ul>
+        <li>Employed as a Vocational Rehabilitation Consultant for 18 months before moving into a new role as a Job Capacity Assessor.
+        <li>Through my involvement with Vocational Rehabilitation Services I was required to service a caseload of 40 clients who consist of long term unemployed people with many and varied conditions. These services covered a wide range of areas aimed at assisting clients in finding sustainable employment.
+        <li>All clients were diagnosed with psychological and physiological conditions and I was responsible for implementing and carrying out appropriate interventions for these conditions.
+        <li>I was also responsible for providing counselling and psychoeducation to clients as needs require.
+      </ul>
+  </p>
+  <p>
+    <h4>Job Capacity Assessor</h4>
+    <b>Medibank Health Solutions</b>
+    <ul>
+      <li>Identified client’s medical, psychological, personal, social and educational barriers to engaging in and sustaining employment
+      <li>Completed a comprehensive report that identifies a person's current and future work capacity, both with and without intervention
+      <li>Provided recommendations of suitable interventions that may assist the person to manage and/or overcome such barriers to aid the persons return to suitable employment
+      <li>Determined a client’s suitability for the different levels of support/programs within the DEEWR/Centrelink framework.
+    </ul>
+  </p>
+
+
+<h3>Formal Education</h3>
+  <p>
+    <h4>2005 – 2007 Bachelor of Behavioural Science (Flinders University)
+        (Majoring in Psychology and Sociology)</h4>
+  <b>Subjects included:</b>
+    <ul>
+      <li>Child development
+      <li>Psychological assessment
+      <li>Youth, consumerism and social identity
+      <li>Crime, deviance and social control
+      <li>Culture and society
+      <li>Contemporary social problems
+      <li>DSM-IV, Psychological Disorders and Mental Health
+    </ul>
+  </p>
+
+  <p>
+    <h4>2007-2009 Diploma in Transpersonal Counselling (IKON Institute)</h4>
+      <b>Subjects included:</b>
+      <ul>
+        <li>Counselling skills (various types)
+        <li>Developmental Psychology
+        <li>Interviewing skills
+        <li>Professional conduct and ethics
+        <li>Client confidentiality
+        <li>Cross Cultural Awareness
+        <li>Depth psychological principles - drawn from Jung, Freud, Assagioli etc.
+        <li>CBT and mindfulness-based therapies.
+        <li>Foundation in academic theory, with a strong emphasis placed upon the key themes of authenticity, self realization, power and meaning.
+      </ul>
+  </p>
+
+  <h3>Referees</h3>
+
+Ryan Bigg (Ruby/Rails Mentor)
+Phone: 0432937289
